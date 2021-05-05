@@ -1,0 +1,77 @@
+*{
+   box-sizing: border-box;
+}
+a{
+   text-decoration: none;
+}
+li{
+   list-style: none;
+}
+/*Логотип*/
+.container{
+   max-width: 1250px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.wrapper{
+   display: flex;
+   align-items: center;
+   margin-bottom: 35px;
+}
+.header-link{
+   margin-left: auto;
+}
+.wrapper-do{
+   display: flex;
+   align-items: center;
+}
+.nav{
+   margin-right: auto;
+}
+.nav-list{
+display: flex;
+padding-left: 0;
+}
+.list{
+   padding-right: 38px;
+}
+/*Спецпредложение*/
+.section-wrap{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 200px;
+}
+/*Услуги*/
+
+.content-do-link{
+   padding-left: 0;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   height: 250px;
+}
+/*Преимущество*/
+.wrapper-link{
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 0;
+}
+.wrapper-list{
+width: 312px;
+}
+.wrapper-list>p{
+   padding-right: 40px;
+}
+/*Размещение*/
+.section-inner-link{
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 0;
+}
+.section-inner-list{
+   width: 390px;
+}
+
+
+
