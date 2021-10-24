@@ -1,77 +1,77 @@
 *{
    box-sizing: border-box;
 }
-a{
-   text-decoration: none;
+body{
+   background-color:rgba(41, 27, 27, 0.71);
+   font-family: 'Roboto', sans-serif;
 }
-li{
-   list-style: none;
-}
-/*Логотип*/
 .container{
-   max-width: 1250px;
-   margin-right: auto;
-   margin-left: auto;
+   max-width: 1194px;
+   margin: auto;
 }
-.wrapper{
+.header{
    display: flex;
    align-items: center;
-   margin-bottom: 35px;
+   padding: 10px 0px;
 }
-.header-link{
+.search-form{
+   margin-left: 76px;
+   background: rgba(238, 238, 238, 0.71);
+   border-radius: 10px;
+   display: flex;
+   max-width: 620px;
+   flex-grow: 1;
+   position: relative;
+}
+.search-input{
+   background-color: transparent;
+   border: none;
+   width: 100%;
+   padding: 13px 20px 13px 20px;
+}
+.search-button{
+   background-color: transparent;
+   border: none;
+   position: absolute;
+   right: 0;
+   top: 0;
+   height: 100%;
+   padding: 13px 18px 14px 18px;
+   cursor: pointer;
+}
+.auth{
    margin-left: auto;
 }
-.wrapper-do{
+.login-auth{
+   background: #EBEBEB;
+   border-radius: 50px;
+   padding: 16px 30px;
+   text-decoration: none;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000;
+}
+.shopping-card{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background: #F66A15;
+   margin-left: 31px;
    display: flex;
-   align-items: center;
+   align-items:center;
+   justify-content: center;
+   text-decoration: none;
+   position: relative;
 }
-.nav{
-   margin-right: auto;
+.shopping-counter{
+   background: #FFAF19;
+   padding: 5px;
+  display: block;
+  border-radius: 50%;
+  font-size: 8px;
+  line-height: 9px;
+  color: #000;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
-.nav-list{
-display: flex;
-padding-left: 0;
-}
-.list{
-   padding-right: 38px;
-}
-/*Спецпредложение*/
-.section-wrap{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   height: 200px;
-}
-/*Услуги*/
-
-.content-do-link{
-   padding-left: 0;
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-   height: 250px;
-}
-/*Преимущество*/
-.wrapper-link{
-   display: flex;
-   flex-wrap: wrap;
-   padding-left: 0;
-}
-.wrapper-list{
-width: 312px;
-}
-.wrapper-list>p{
-   padding-right: 40px;
-}
-/*Размещение*/
-.section-inner-link{
-   display: flex;
-   flex-wrap: wrap;
-   padding-left: 0;
-}
-.section-inner-list{
-   width: 390px;
-}
-
-
-
